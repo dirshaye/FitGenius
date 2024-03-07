@@ -13,7 +13,7 @@ def evaluate_clusters(clustered_data):
     plt.xticks(range(3))
     plt.tight_layout()
 
-    # Save the plot as an image
+    # Save the plot as an  image
     plt.savefig('cluster_distribution.png')
 
     # Display the plot
