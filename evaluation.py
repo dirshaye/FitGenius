@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 def evaluate_clusters(clustered_data):
-    # Calculate the percentage of users in each cluster
+    #Calculate the percentage of users in each cluster
     cluster_counts = clustered_data['cluster'].value_counts(normalize=True) * 100
 
     # Visualize cluster distribution
