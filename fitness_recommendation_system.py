@@ -5,6 +5,9 @@ from evaluation import evaluate_clusters
 from recommendation import recommend_activity
 
 def main():
+    """
+    Main function to execute the entire process of data preprocessing, modeling, evaluation, and recommendation.
+    """
     # Step 1: Load and preprocess data
     fitness_data = preprocess_data()
 
