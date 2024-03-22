@@ -1,7 +1,16 @@
 import matplotlib.pyplot as plt
 
 def evaluate_clusters(clustered_data):
-    #Calculate the percentage of users in each cluster
+    """
+    Visualizes the distribution of users across different clusters.
+
+    Parameters:
+    - clustered_data (DataFrame): A DataFrame containing clustered user data with a 'cluster' column.
+
+    Returns:
+    None
+    """
+    # Calculate the percentage of users in each cluster
     cluster_counts = clustered_data['cluster'].value_counts(normalize=True) * 100
 
     # Visualize cluster distribution
@@ -13,7 +22,7 @@ def evaluate_clusters(clustered_data):
     plt.xticks(range(3))
     plt.tight_layout()
 
-    # Save the plot as an  image
+    # Save the plot as an image
     plt.savefig('cluster_distribution.png')
 
     # Display the plot
