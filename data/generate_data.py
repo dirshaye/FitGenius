@@ -8,7 +8,7 @@ np.random.seed(42)
 energy_levels = np.random.randint(0, 101, size=100)
 
 # Define time of day (morning, afternoon, evening)
-times_of_day = np.random.choice(['morning', 'afternoon', 'evening'], size=100)
+times_of_day = np.random.choice(['morning', 'afternoon', 'evening'], size=100) 
 
 # Define stress levels (low, moderate, high)
 stress_levels = np.random.choice(['low', 'moderate', 'high'], size=100)
