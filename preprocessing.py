@@ -1,6 +1,6 @@
 import pandas as pd
 
-def preprocess_data():
+def preprocess_data(): 
     """
     Preprocess the raw fitness data.
     
