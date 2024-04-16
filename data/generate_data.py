@@ -17,7 +17,7 @@ stress_levels = np.random.choice(['low', 'moderate', 'high'], size=100)
 fitness_preferences = np.random.choice(['cardio', 'strength training', 'yoga'], size=100)
 
 # Create DataFrame
-fitness_data = pd.DataFrame({
+fitness_data = pd.DataFrame({ 
     'energy_level': energy_levels,
     'time_of_day': times_of_day,
     'stress_level': stress_levels,
