@@ -4,7 +4,7 @@ import numpy as np
 # Generating synthetic data
 np.random.seed(42)  
 
-# Define energy levels (0 to 100)
+# Define energy levels (0 to 100) 
 energy_levels = np.random.randint(0, 101, size=100) 
 
 # Define time of day (morning, afternoon, evening)
