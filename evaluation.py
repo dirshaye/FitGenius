@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt 
 
-def evaluate_clusters(clustered_data):
+def evaluate_clusters(clustered_data): 
     """
     Visualizes the distribution of users across different clusters.
 
