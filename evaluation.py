@@ -9,7 +9,7 @@ def evaluate_clusters(clustered_data):
 
     Returns:
     None
-    """
+    """ 
     # Calculate the percentage of users in each cluster
     cluster_counts = clustered_data['cluster'].value_counts(normalize=True) * 100  
 
