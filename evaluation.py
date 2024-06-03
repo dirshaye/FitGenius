@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def evaluate_clusters(clustered_data): 
     """ 
     Visualizes the distribution of users across different clusters. 
- 
+  
     Parameters:
     - clustered_data (DataFrame): A DataFrame containing clustered user data with a 'cluster' column. 
 
