@@ -1,4 +1,4 @@
-def recommend_activity(cluster_center):
+def recommend_activity(cluster_center): 
     """
     Recommend an activity based on the characteristics of the cluster center.
     
