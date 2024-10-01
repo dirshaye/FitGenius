@@ -13,7 +13,7 @@ def main():
 
     # Step 2: Modeling and clustering
     clustered_data = cluster_data(fitness_data) 
-
+ 
     # Step 3: Evaluation
     evaluate_clusters(clustered_data)
 
