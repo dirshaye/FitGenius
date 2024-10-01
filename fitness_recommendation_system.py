@@ -2,7 +2,7 @@ import pandas as pd
 from preprocessing import preprocess_data
 from modeling import cluster_data
 from evaluation import evaluate_clusters
-from recommendation import recommend_activity 
+from recommendation import recommend_activity  
 
 def main():
     """
