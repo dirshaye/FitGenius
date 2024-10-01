@@ -3,7 +3,7 @@ from preprocessing import preprocess_data
 from modeling import cluster_data
 from evaluation import evaluate_clusters
 from recommendation import recommend_activity  
- 
+  
 def main(): 
     """
     Main function to execute the entire process of data preprocessing, modeling, evaluation, and recommendation.
